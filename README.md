@@ -1,34 +1,44 @@
-# 🍱 Taami Project -Data Analysis- Phase 1
-This project analyzes real data from Taami (Food Preservation Charity) to identify trends in food donations, understand the causes of food waste, and provide actionable insights to help Taami improve food distribution, reduce waste, and ultimately increase its impact on community food security.
-> Note: The original dataset used in this project contains real, anonymized data provided by Taami.
-> For privacy reasons, only sample visual outputs are shared publicly in this repository.
+# 🍱 Taami Project - Food Data Analysis & Operational Insights
+This project analyzes operational records from **Taami (Food Preservation Charity)** to identify donation trends, uncover the root causes of food waste, and provide insights to optimize food distribution, reduce waste, and enhance community food security.
+
+> **Privacy Note:** This project uses real operational data provided by Taami. All personal information and private entities have been anonymized in compliance with data privacy policies. Only sample aggregated insights and structural frameworks are shared publicly.
 
 ---
 
-## 📌 Project Overview
-This project analyzes real data provided by **Taami (Food Preservation Charity)** to identify trends in food donations, understand the causes of food waste, and support better decision-making to enhance food management efficiency.
-
-The primary goal of this project is to convert raw data from the charity into actionable insights to:
-- Reduce food waste.
-- Identify key donors with the highest rates of valid and invalid meals.
-- Highlight days with unusual food waste patterns.
-- Support the charity’s operational planning and decision-making.
-
-This project is part of my data analysis learning journey and applies analytical skills to support social impact initiatives.
+## 📌 Project Overview & Objectives
+The primary goal is to convert raw administrative logs into strategic metrics that support decision-making:
+- **Descriptive & Diagnostic Analysis:** Summarize historical donation flows and diagnose anomalies (such as data-entry errors and decimal-placement issues).
+- **Waste Reduction:** Minimize invalid food quantities and track waste patterns over time.
+- **Donor Performance:** Identify key donors contributing the highest rates of valid meals versus waste.
+- **Operational Efficiency:** Structure metrics by day, week, and month.
 
 ---
+## ⚙️ Methodology & Data Framework
 
-## 🚀 Phase 1: Completed Tasks
+This project leverages two core analytical methodologies:
 
-**Duration:** Aug – Oct 2025  
-**Status:** ✅ Phase 1 Completed
+1. **Descriptive Analysis:** Organizes and summarizes historical data to answer “What happened?”
+2. **Diagnostic Analysis:** Pinpoints the root causes behind data anomalies and waste spikes to answer “Why did it happen?”
 
-### Goals of Phase 1
-- ✅ Clean and prepare raw data from the charity’s records.
-- ✅ Perform descriptive statistical analysis.
-- ✅ Identify trends and outliers in food donations.
-- ✅ Create initial data visualizations.
-- ✅ Document the analysis process and findings.
+### Approved Excel Workbook Structure:
+Following the transition from exploratory Python prototypes, the complete analysis is structured into multiple dedicated sheets within Excel:
+
+* **`Donation Data:`** The core primary dataset containing raw entries and corrective adjustment columns.
+* **`Data Analysis:`** Comprehensive data audit showing comparisons "Before and After Correction".
+* **`Statistical Summary:`** Key metrics including Mean, Standard Deviation, Max/Min values, and Medians.
+* **`Data Quality:`** Supplementary sheet measuring utilization rates and data engineering metrics.
+* **`Data Logic Check:`** Tracks and resolves flagged records to minimize logical discrepancies.
+* **`Run Chart:`** Tracks daily valid weights across 101 days against the Median line.
+---
+## 🚀 Project Timeline & Phases
+
+### Phase 1: Initial Discovery & Data Cleaning (Aug – Oct 2025)
+* **Status:** ✅ Completed
+* **Scope:** Cleaned and structured raw logs covering **101 operational days** (Dec 18, 2024 – Mar 29, 2025). Computed baseline daily and weekly averages for valid and invalid donations.
+
+### Phase 2: Deep-Dive Diagnostics & Final Reporting (Sep – Nov 2026)
+* **Status:** ✅ Completed
+* **Scope:** Conducted thorough error corrections (such as fixing decimal placement anomalies in 48 flagged records, e.g., correcting record #4460 from 12,768 kg to 127.68 kg). Evaluated monthly growth trends and finalized comprehensive reporting for the charity’s leadership.
 
 ### Achievements
 - Cleaned and structured 101 days of real data.
@@ -36,29 +46,11 @@ This project is part of my data analysis learning journey and applies analytical
 - Discovered top donors contributing the most valid meals.
 - Identified specific days with unusually high food waste.
 - Designed early visual charts to present results.
-
 ---
-
-## ⚙️ Tools and Technologies
-
-|         Tool        |               Purpose              |
-|---------------------|------------------------------------|
-|       **Excel**     | Data validation and cross-checking |
-|     **GitHub**      | Version control and documentation  |
-| **CSV/Excel files** |         Data source format         |
-
----
-
-## 📊 Sample Visualization
-Below is an example chart comparing valid and invalid food quantities over three months (101 Days).
-![Show Visual](DataVis.png)
-**(This visualization demonstrates the overall food quality trend and identifies peak waste days.)**
-
----
-
-## 🔮 Next Steps (Phase 2 -Final-)
-
-- Build an **interactive dashboard** for monthly updates.  
-- Automate **data imports and cleaning scripts**.  
-- Enhance **visual storytelling** using Python and advanced libraries like Plotly or Seaborn. 
-- Publish full project documentation and dashboards on GitHub Pages.
+## 🛠️ Tools and Technologies
+| Tool / Technology | Purpose |
+| :--- | :--- |
+| **Excel** | Data cleaning, validation, statistical aggregation, and multi-sheet reporting |
+| **Python (Pandas / NumPy)** | Initial data exploration, text filtering, and preprocessing logic |
+| **ChatGPT / Gemini / Copilot** | Conceptual structuring, formula syntax guidance, and workflow organization |
+| **GitHub** | Version control, documentation, and project portfolio hosting |
