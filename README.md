@@ -40,12 +40,6 @@ Following the transition from exploratory Python prototypes, the complete analys
 * **Status:** ✅ Completed
 * **Scope:** Conducted thorough error corrections (such as fixing decimal placement anomalies in 48 flagged records, e.g., correcting record #4460 from 12,768 kg to 127.68 kg). Evaluated monthly growth trends and finalized comprehensive reporting for the charity’s leadership.
 
-### Achievements
-- Cleaned and structured 101 days of real data.
-- Calculated daily and weekly averages for valid vs. invalid food donations.
-- Discovered top donors contributing the most valid meals.
-- Identified specific days with unusually high food waste.
-- Designed early visual charts to present results.
 ---
 ## 🛠️ Tools and Technologies
 | Tool / Technology | Purpose |
